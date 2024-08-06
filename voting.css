@@ -1,0 +1,92 @@
+/*Home Page--CSS*/
+body{
+    margin: 0;
+}
+
+#top{
+    background-image: url(https://th.bing.com/th/id/OIP.hSX2cr9OwxaPY7iN3WVj-QHaDu?rs=1&pid=ImgDetMain);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*Navigation*/
+
+.navbar-nav{
+    padding-right: 20px;
+}
+
+.nav-link{
+    padding-left: 5px;
+}
+
+/*Poll Side*/
+
+.poll-name{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rw1{
+    padding-top: 150px;
+    padding-bottom: 180px;
+    text-align: center;
+}
+
+.cn{
+    padding-bottom: 15px;
+}
+.btn{
+    position: relative;
+    background-color: #af4ca5;
+    border: none;
+    font-size: 28px;
+    color: #150101;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn:after {
+    content: "";
+    background: blue;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    
+  }
+
+  .btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+    
+  }
+
+
+
+  #footer{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: rgb(255, 233, 224);
+      text-align: center;
+  }
+
+  .link-icon{
+      color: rgb(124, 15, 15);
+      font-size: 25px;
+      padding-right: 10px;
+  }
